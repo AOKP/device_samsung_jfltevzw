@@ -20,6 +20,13 @@ $(call inherit-product-if-exists, vendor/samsung/jfltevzw/jfltevzw-vendor.mk)
 ## device overlays
 DEVICE_PACKAGE_OVERLAYS += device/samsung/jfltevzw/overlay
 
+# loki
+PRODUCT_PACKAGES += \
+    loki.sh \
+    loki_flash \
+    loki_patch \
+    valid_bootloaders
+
 ## common overlays
 DEVICE_PACKAGE_OVERLAYS += device/samsung/jf-common/overlay-cdma
 

@@ -30,7 +30,10 @@
 TARGET_OTA_ASSERT_DEVICE := jfltevzw
 
 # Kernel
-TARGET_KERNEL_CONFIG         := jf_vzw_defconfig
+TARGET_KERNEL_CONFIG := jf_vzw_defconfig
 
 # loki
 TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/jf-common/loki
+
+# Disable MSB for GPS
+NEEDS_GPS_MSB_DISABLED := true
