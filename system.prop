@@ -16,3 +16,11 @@ ro.config.combined_signal=true
 ro.gsm.data_retry_config=max_retries=infinite,5000,5000,60000,120000,480000,900000
 DEVICE_PROVISIONED=1
 persist.eons.enabled=false
+
+# I9505 Hardware Info
+ro.device.chipset=Qualcomm APQ8064T Snapdragon 600
+ro.device.cpu=Quad-core 1.9 GHz Krait 300
+ro.device.gpu=Adreno 320
+ro.device.rear_cam=13 MP
+ro.device.front_cam=2 MP
+ro.device.screen_res=1080x1920
